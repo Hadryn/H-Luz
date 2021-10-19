@@ -1,0 +1,6 @@
+name: H-Luz
+main: com.h_dev.luz.Main
+version: 1.2
+commands:
+  luz:
+    aliases: [l]
