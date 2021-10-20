@@ -19,18 +19,18 @@ public class ComandoLuz implements CommandExecutor {
 
                 if(!(p.hasPotionEffect(PotionEffectType.NIGHT_VISION))){
                     p.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 99999, 1));
-                    Bukkit.getConsoleSender().sendMessage("§aFoi ativada a luz para "+p.getName());
-                    p.sendMessage("§a A Luz foi Ativada!");
+                    Bukkit.getConsoleSender().sendMessage("§aFOI ATIVADA A LUZ PARA "+p.getName());
+                    p.sendMessage("§a A LUZ FOI ATIVADA!");
                 }else{
                     p.removePotionEffect(PotionEffectType.NIGHT_VISION);
-                    Bukkit.getConsoleSender().sendMessage("§cFoi desativada a luz para "+p.getName());
-                    p.sendMessage("§cA Luz foi Desativada");
+                    Bukkit.getConsoleSender().sendMessage("§cFOI DESATIVADA A LUZ PARA "+p.getName());
+                    p.sendMessage("§c A LUZ FOI DESATIVADA");
                 }
             }else{
-                p.sendMessage("§cVocê não tem permissão para executar este comando!");
+                p.sendMessage("§cCOMANDO NEGADO PELO ADMINISTRADOR!");
             }
         }else{
-            Bukkit.getConsoleSender().sendMessage("§cVocê não é um player!");
+            Bukkit.getConsoleSender().sendMessage("§cCOMANDO EXCLUSIVO PARA PLAYERS!");
         }
         return false;
     }
