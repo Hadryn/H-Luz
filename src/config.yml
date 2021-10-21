@@ -1,0 +1,8 @@
+# active-msg - é a mensagem que aparece para  o player quando ele utiliza o /luz e estava com ele desativado.
+# deactive-msg - é a mensagem que aparece para o player quando ele utiliza o /luz e já estava com ele ativado.
+
+active-msg: '&a A LUZ FOI ATIVADA!'
+deactive-msg: '&c A LUZ FOI DESATIVADA!'
+
+consoleactive-msg: '&a A LUZ FOI ATIVADA PARA: &f'
+consoledeactive-msg: '&c A LUZ FOI DESATIVADA PARA: &f'
