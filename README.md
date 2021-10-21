@@ -1,2 +1,3 @@
 # hLuz
-Este plugin foi criado na versão JavaSE1.8 e interage diretamente com o spigot-1.8.8.
+
+hLuz é um plugin que acrescenta o comando /luz onde o player pode utilizá-lo em locais escuros dentro do servidor.
