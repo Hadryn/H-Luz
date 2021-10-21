@@ -24,11 +24,9 @@ public class ComandoLuz implements CommandExecutor {
 
                 if(!(p.hasPotionEffect(PotionEffectType.NIGHT_VISION))){
                     p.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 99999, 1));
-                    p.playSound(p.getLocation(), Sound.LEVEL_UP, 500.0f, 1.0f);
                     p.sendMessage(activemsg);
                 }else{
                     p.removePotionEffect(PotionEffectType.NIGHT_VISION);
-                    p.playSound(p.getLocation(), Sound.BLAZE_DEATH, 500.0f, 1.0f);
                     p.sendMessage(deactivemsg);
                 }
             }else{
